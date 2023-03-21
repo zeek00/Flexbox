@@ -1,0 +1,28 @@
+aside{
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    margin-bottom: 2rem;
+    h2 {
+        text-align: center;
+    }
+    .content{
+        
+        img{
+            margin: 0 auto;
+            max-width: 100%;
+            width: 300px;
+        }
+
+
+
+    }
+    @media only screen and (min-width: 100px) and (max-width:1000px){
+        .go{
+            display: none;
+        }
+    }
+
+    
+    
+}

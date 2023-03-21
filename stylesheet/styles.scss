@@ -1,0 +1,41 @@
+$primary: #0081C9;
+$secondary: #FFC93C;
+$auxiliary: #86E5FF;
+
+@import './header';
+@import './banner';
+@import './aside';
+@import './footer';
+
+
+html{
+    font-size: 16px;
+    font-family: 'Nunito', sans-serif;
+   
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.primary{
+    display: flex;
+    border-style: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: $secondary;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Nunito', sans-serif;
+}
+.primary:hover{
+    background-color: $auxiliary;
+    transform: scale(1);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+
